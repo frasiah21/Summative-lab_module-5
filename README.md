@@ -2,7 +2,7 @@
 
 Performed by Group 6:
 - Frasiah Wanjiku
-- Gisairo Mokeira
+- Mokeira Gisairo
 - Clement Otindo
 - Myles Imbayi
 
