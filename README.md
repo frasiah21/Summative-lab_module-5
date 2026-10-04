@@ -6,12 +6,18 @@ Performed by Group 6:
 - Clement Otindo
 - Myles Imbayi
 
-Our goal was to create a waste management assistant that can:
+Our goal for this challenge is to create a Waste Management Assistant that can:
 1) Look at a photo of a waste item and can correctly identify what it is.
 2) Can correctly identify an item from a text describing it.
 3) Give recycling instructions for the item based on particular policies.
 
 We achieved this by building:
 1) a Convolutional Neural Network (CNN) model that analyzes and identifies waste from pictures
-2) a Recurrent Neural Network (RNN) model that analyzes and identifies waste from text descriptions
+2) a Text Classification model through the use of Traditional Machine Learning Models that help analyze and identify waste from text descriptions
 3) a Retrieval Augmented Generation (RAG) Model which looks up the right recycling rules and generates instructions based on the rule.
+4) an all round Integrated Assistant system that combines all the three models into one, can classify any waste category either by the use of Images or Text, and will generate appropriate instructions and policies depending on the waste category.
+
+Dataset Used:
+1) Waste Descriptions (CSV File)
+2) Waste Policy Documents (JSON File)
+3) RealWaste Dataset 
